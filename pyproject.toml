@@ -1,0 +1,18 @@
+[project]
+name = "multi-vector-semantic-search"
+version = "0.1.0"
+description = "Advanced Video Search with TwelveLabs and Amazon OpenSearch"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.40.22",
+    "matplotlib>=3.10.6",
+    "nbformat>=5.10.4",
+    "opensearch-py>=3.0.0",
+    "pandas>=2.3.2",
+    "pillow>=11.3.0",
+    "plotly>=6.3.0",
+    "python-dotenv>=1.1.1",
+    "scikit-learn>=1.7.1",
+    "twelvelabs>=1.0.1",
+]
